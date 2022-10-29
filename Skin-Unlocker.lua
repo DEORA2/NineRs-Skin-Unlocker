@@ -9,7 +9,7 @@ Sorting skins and adding new skins by me.
 --]]
 
 local LocalPlayer = game:GetService("Players").LocalPlayer
-local Client = getsenv(game.Players.LocalPlayer.PlayerGui.Client)
+local Client = getsenv(game.Players.LocalPlayer.PlayerGui:GetChildren()[2])
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local allSkins = {
